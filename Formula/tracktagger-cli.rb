@@ -7,6 +7,6 @@ class TracktaggerCli < Formula
   def install
     jar_name = 'track-tagger-cli.jar'
     libexec.install jar_name
-    bin.write_jar_script libexec/jar_name 'tracktagger'
+    bin.write_jar_script libexec/jar_name, 'tracktagger'
   end
 end
