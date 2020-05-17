@@ -1,8 +1,8 @@
 class TracktaggerCli < Formula
   desc "track tagger"
   homepage "https://github.com/semkagtn/homebrew-tracktagger"
-  url "https://github.com/semkagtn/homebrew-tracktagger/raw/master/tracktagger-cli-0.0.zip"
-  sha256 "b6341d47839612d6ded813f81c229f05486d3f3e7bf0ec470a4b11d28133bda4"
+  url "https://github.com/semkagtn/homebrew-tracktagger/raw/master/tracktagger-cli-0.1.zip"
+  sha256 "029f591372ff51bb701e40cfc405a9e2ad7e7431baea0860e952705caf078bcf"
 
   def install
     jar_name = 'track-tagger-cli.jar'
